@@ -1,48 +1,5 @@
 
-// var todo = document.getElementById("todo")
 
-// function addTask() {
-//     var input = document.getElementById("input")
-
-//     if (input.value.length > 0) {
-        
-//         var li = document.createElement("li")
-//         var liTxt = document.createTextNode(input.value)
-//         li.appendChild(liTxt)
-        
-//         var editBtn = document.createElement("button")
-//         var editBtnTxt = document.createTextNode("Edit this")
-//         editBtn.appendChild(editBtnTxt)
-//         editBtn.setAttribute("onclick", "editTask(this)")
-//         editBtn.className = "btn"
-//         li.appendChild(editBtn)
-//         var delBtn = document.createElement("button")
-//         var delBtnTxt = document.createTextNode("Delete this")
-//         delBtn.appendChild(delBtnTxt)
-//         delBtn.setAttribute("onclick", "delTask(this)")
-//         delBtn.className = "btn"
-//         li.appendChild(delBtn)
-
-//         todo.appendChild(li)
-//         input.value = ""
-//     }
-//     else {
-//         alert("Empty Task cannot be ADDED !")
-//     }
-// }
-
-// function deleteAll() {
-//     todo.innerHTML = ""
-// }
-
-// function editTask(element) {
-//     var editValue = prompt("Edit Value", element.parentNode.firstChild.nodeValue)
-//     element.parentNode.firstChild.nodeValue = editValue
-// }
-
-// function delTask(element) {
-//     element.parentNode.remove()
-// }
 var todo=document.getElementById("todo")
 
 function addTodo(){
